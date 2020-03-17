@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    width: 1040px;
+    height: 600px;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.main .header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.main .header .image{
+    width: 80px;
+    float: left;
+}
+
+.main .header .menu{
+    width: 400px;
+    margin-top: 20px;
+    background-color: green;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    text-align: center;
+}
+
+
+.main .header .menu li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main .header .menu a{
+    color: black;
+}
+
+.main .header .menu li:hover{
+    background-color: #ff2a2a;
+}
+
+.main .content{
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    background: url("../img/agh.png") rgba(255, 255, 255, 0.1) no-repeat;
+}
+
+.main .content .paragraphs{
+    color: red;
+    line-height: 30px;
+}
+
+.main .content .paragraphs #p1{
+    color: orange;
+}
+.main .content .paragraphs #p2{
+    color: olive;
+}
+
+.main .content .ordered-list{
+    line-height: 30px;
+}
+
+
