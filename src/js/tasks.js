@@ -1,4 +1,17 @@
 function init() {
+    document.getElementById("fir").src = "img/flower1.png";
+
+    let task3 = document.getElementById("task3");
+
+    let container =  document.getElementById("container").getElementsByTagName("img");
+    for (let i = 0; i < container.length; i++){
+        if (i%2 === 0){
+            container[i].src="img/flower1.png";
+        }else if (i%2 === 1){
+            container[i].src="img/flower2.png"
+        }
+    }
+
     let image = document.createElement("img");
     image.src = "img/flower2.png";
     let span = document.getElementById("new_element");
@@ -24,4 +37,8 @@ function init() {
 
     document.getElementById("event").addEventListener("mouseover", changeSrc);
 
+}
+
+function greet() {
+    alert("Hello");
 }
